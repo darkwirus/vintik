@@ -90,6 +90,7 @@ $(document).mouseup(function (e) {
 	var $target = $(e.target);
 	if ($target.closest(".menu__body").length == 0 && $target.closest(".icon-menu").length == 0) {
 		$(".menu__body").removeClass("_active");
+		$(".icon-menu").removeClass("_active");
 	}
 });
 
